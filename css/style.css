@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.contenitore {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: darkturquoise;
+    margin-left: 20px;
+}
+
+#contenitore-icone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.oggetto {
+    width: 17%;
+    height: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    background-color: rgb(238, 238, 238);
+}
+
+.contenuti {
+    text-align: center;
+}
+
+.fas.green {
+    color: green;
+}
+
+.fas.orange {
+    color: orange;
+}
+
+.fas.blue {
+    color: blue;
+}
