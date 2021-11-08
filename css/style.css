@@ -14,8 +14,9 @@ body {
 }
 
 h1 {
-    color: darkturquoise;
+    color: rgb(0, 167, 209);
     margin-left: 20px;
+    font-size: 40px;
 }
 
 #contenitore-icone {
@@ -28,7 +29,6 @@ h1 {
 
 .oggetto {
     width: 17%;
-    height: 70px;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
@@ -39,7 +39,14 @@ h1 {
 }
 
 .contenuti {
+    padding: 20px 0;
     text-align: center;
+    text-transform: uppercase;
+}
+
+.contenuti i {
+    font-size: 30px;
+    margin-bottom: 5px;
 }
 
 .fas.green {
