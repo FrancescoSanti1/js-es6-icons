@@ -1,5 +1,5 @@
 // creazione pagina di partenza con tutte le icone in pagina
-creazionePagina(listaAnimali);
+creazionePagina(listaIcone);
 
 
 // quando cambia il valore selezionato nel menù a tendina
@@ -9,11 +9,11 @@ document.getElementById("tipo-icone").addEventListener("input", function() {
     if (this.value === "all") {
 
         // ricreo la pagina di partenza
-        creazionePagina(listaAnimali);
+        creazionePagina(listaIcone);
     } else {
 
         // altrimenti creo un nuovo array con solo gli elementi che hanno il "tipo" selezionato dall'utente
-        const listaTipoSelezionato = listaAnimali.filter(elemento => elemento.type === this.value);
+        const listaTipoSelezionato = listaIcone.filter(elemento => elemento.type === this.value);
 
         // e stampo in pagina solo gli elementi che rientrano nel tipo selezionato
         creazionePagina(listaTipoSelezionato);

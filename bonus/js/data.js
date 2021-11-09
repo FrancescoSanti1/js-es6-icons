@@ -1,4 +1,4 @@
-const listaAnimali = [
+const listaIcone = [
 	{
 		name: 'cat',
 		prefix: 'fa-',
